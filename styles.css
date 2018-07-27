@@ -1,0 +1,24 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 780px;
+    margin: 0 auto; 
+    background-color: lightgoldenrodyellow;
+}
+
+button {
+    font-size: 14px; 
+    padding: 14 px; 
+}
+
+h1 {
+font-size: 3em; 
+}
+
+p {
+    font-size: 1.5em; 
+}
+
+#correct {
+    font-weight: bold;
+    font-size: 1.75em; 
+}
