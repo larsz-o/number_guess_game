@@ -3,6 +3,7 @@ body {
     max-width: 780px;
     margin: 0 auto; 
     background-color: lightgoldenrodyellow;
+    color: gray; 
 }
 
 button {
@@ -16,9 +17,13 @@ font-size: 3em;
 
 p {
     font-size: 1.5em; 
+     
 }
-
-#correct {
-    font-weight: bold;
-    font-size: 1.75em; 
+.container{
+    max-width: 900px;  
+   
+}
+#answerCol{
+    height: 100px; 
+    color: white; 
 }

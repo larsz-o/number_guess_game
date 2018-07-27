@@ -19,16 +19,16 @@ function submitMessage(){
     console.log(inputEntry);
     console.log('count:', submitCounter); 
     if (inputEntry > answer){
-        $('#answer-container').html('<p>Lower</p>');
-        $('#answer-container').css('background-color', 'yellow');
+        $('#answerCol').html('<p class="text-center">Lower</p>');
+        $('#answerCol').css('background-color', '#E8E409');
     }
     else if (inputEntry < answer) { 
-        $('#answer-container').html('<p>Higher</p>');
-        $('#answer-container').css('background-color', 'orange');
+        $('#answerCol').html('<p class="text-center">Higher</p>');
+        $('#answerCol').css('background-color', '#FF4212');
     }
     else if (inputEntry == answer) {
-        $('#answer-container').html('<p id="correct">Correct!</p>');
-        $('#answer-container').css('background-color', 'green');
+        $('#answerCol').html('<p class="text-center">Correct!</p>');
+        $('#answerCol').css('background-color', '#53FF0A');
     }
 }
 
