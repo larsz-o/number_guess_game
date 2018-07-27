@@ -19,11 +19,11 @@ function submitMessage(){
     console.log(inputEntry);
     console.log('count:', submitCounter); 
     if (inputEntry > answer){
-        $('#answerCol').html('<p class="text-center">Lower</p>');
+        $('#answerCol').html('<p class="text-center">Lower!</p>');
         $('#answerCol').css('background-color', '#E8E409');
     }
     else if (inputEntry < answer) { 
-        $('#answerCol').html('<p class="text-center">Higher</p>');
+        $('#answerCol').html('<p class="text-center">Higher!</p>');
         $('#answerCol').css('background-color', '#FF4212');
     }
     else if (inputEntry == answer) {
